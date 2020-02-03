@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>白山インターネットTVステーション　仮設ホームページ</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<![endif]-->
+<link href="css/style.css" rel="stylesheet" media="all">
+
+<link rel="stylesheet" type="text/css" href="./colorbox/colorbox.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="./colorbox/jquery.colorbox.js"></script>
+
+
+		<script>
+			$(document).ready(function(){$(".inline").colorbox({inline:true});});
+		</script>
+
+
+<style>
+
+.title {
+	text-align: center;
+}
+
+.btn {
+	font-size : 15pt;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content{
+	background-color: white;
+	width: 854px;
+	height: 560px;
+	margin: 5% ;
+}
+
+div#list {
+	line-height : 250%;
+}
+
+
+</style>
+
+<script>
+
+
+window.addEventListener('click', function(e) {
+  if (e.target == document.getElementById('modal')) {
+    document.getElementById('video').pause(); 
+    document.getElementById('modal').style.display = 'none';
+  }
+},false);
+</script>
+
+</head>
+<body>
+<div id="container">
+  <header id="header">
+    <h1>白山インターネットTVステーション（HiTS）　仮設ホームページ</h1>
+  </header>
+  <div id="nav_frame">
+    <nav>
+      <ul id="nav1">
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="2019.html">2019年度の作品</a></li>
+        <li><a href="2018.html">2018年度の作品</a></li>
+        <li><a href="2017.html">2017年度の作品</a></li>
+        <li><a href="2016.html">2016年度の作品</a></li>
+        <li><a href="2015.html">2015年度の作品</a></li>
+        <li><a href="2014.html">2014年度の作品</a></li>
+        <li><a href="2013.html">2013年度の作品</a></li>
+        <li><a href="2012.html">2012年度の作品</a></li>
+        <li><a href="2011.html">2011年度の作品</a></li>
+        <li><a href="2010.html">2010年度の作品</a></li>
+        <li><a href="2009.html">2009年度の作品</a></li>
+        <li><a href="2008.html">2008年度の作品</a></li>
+        <li><a href="2007.html">2007年度の作品</a></li>
+        <li><a href="2006.html">2006年度の作品</a></li>
+        <li><a href="tetsugakudo.html">哲学堂七十七場紹介</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div id="top"><img src="image/hits2019.png" alt="" width="750" height="120" ></div>
+
+  <div id="main">
+    <h1>2019年度の作品</h1>
+
+　　　　<button>video</button>ボタンをクリックすると作品を視聴できます。
+<br><br>
+
+    <h2 class="mt0">エチュード1</h2>
+ビデオ編集ソフトの使い方を学習するために、自分で撮影した写真を素材に作品を作りました。<br>
+
+
+
+
+<hr>
+
+<div id="list">
+
+      <button onClick="document.getElementById('video').src='./video/hits19_etude1_1.mp4';
+                       document.getElementById('ttt').innerHTML='東洋大学の食';
+                       document.getElementById('modal').style.display = 'block';">video</button>
+        東洋大学の食
+      
+<br>
+      <button onClick="document.getElementById('video').src='./video/hits19_etude1_2.mp4';
+                       document.getElementById('ttt').innerHTML='白山駅をご利用の方々へ本駒込駅への道をご紹介';
+                       document.getElementById('modal').style.display = 'block';">video</button>
+        白山駅をご利用の方々へ本駒込駅への道をご紹介
+      
+<br>
+      <button onClick="document.getElementById('video').src='./video/hits19_etude1_3.mp4';
+                       document.getElementById('ttt').innerHTML='サイコロで行く!!白山キャンパスツアー～1号館編～';
+                       document.getElementById('modal').style.display = 'block';">video</button>
+        サイコロで行く!!白山キャンパスツアー～1号館編～
+      
+<br>
+      <button onClick="document.getElementById('video').src='./video/hits19_etude1_4.mp4';
+                       document.getElementById('ttt').innerHTML='謎の像～この人は誰？～';
+                       document.getElementById('modal').style.display = 'block';">video</button>
+        謎の像～この人は誰？～
+      
+<br>
+      <button onClick="document.getElementById('video').src='./video/hits19_etude1_5.mp4';
+                       document.getElementById('ttt').innerHTML='はくさんぽ【白山神社編】';
+                       document.getElementById('modal').style.display = 'block';">video</button>
+        はくさんぽ【白山神社編】
+      
+<br>
+      <button onClick="document.getElementById('video').src='./video/hits19_etude1_6.mp4';
+                       document.getElementById('ttt').innerHTML='東洋大学in白山　周辺の階段と自然';
+                       document.getElementById('modal').style.display = 'block';">video</button>
+        東洋大学in白山　周辺の階段と自然
+      
+<br>
+      <button onClick="document.getElementById('video').src='./video/hits19_etude1_7.mp4';
+                       document.getElementById('ttt').innerHTML='東洋大学白山キャンパス～食堂紹介～';
+                       document.getElementById('modal').style.display = 'block';">video</button>
+        東洋大学白山キャンパス～食堂紹介～
+      
+<br>
+      <button onClick="document.getElementById('video').src='./video/hits19_etude1_8.mp4';
+                       document.getElementById('ttt').innerHTML='暇な時間があったら　そうだ6号館へ行こう！';
+                       document.getElementById('modal').style.display = 'block';">video</button>
+        暇な時間があったら　そうだ6号館へ行こう！
+<br>
+      <button onClick="document.getElementById('video').src='./video/hits19_etude1_9.mp4';
+                       document.getElementById('ttt').innerHTML='東洋大学の食堂紹介';
+                       document.getElementById('modal').style.display = 'block';">video</button>
+        東洋大学の食堂紹介
+      
+</div> 
+<br><br>
+
+
+
+    <h2 class="mt0">エチュード2</h2>
+学生がインタビューテーマを設定し、初めてビデオカメラを使って取材をし、構成・編集をしました。
+
+
+
+<hr>
+
+<div id="list">
+      <button onClick="document.getElementById('video').src='./video/hits19_etude2_1.mp4';
+                       document.getElementById('ttt').innerHTML='令和まる見え！東洋特捜部';
+                       document.getElementById('modal').style.display = 'block';">video</button>
+        令和まる見え！東洋特捜部
+      
+<br>
+      <button onClick="document.getElementById('video').src='./video/hits19_etude2_2.mp4';
+                       document.getElementById('ttt').innerHTML='東洋大生のオピニオン';
+                       document.getElementById('modal').style.display = 'block';">video</button>
+        東洋大生のオピニオン
+      
+<br>
+
+
+</div> 
+
+  </div>
+</div>
+
+
+
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-body">
+<video id="video"  height="480" controls></video>
+<h3 class="title"><span id="ttt"></span>　　
+ <button class="btn" onClick="document.getElementById('video').pause(); document.getElementById('modal').style.display = 'none';">close</button>
+</h3>
+    </div>
+  </div>
+</div>
+
+
+<footer>
+  <div id="footer_color">
+    <div id="copy">Copyright &copy; Department of Media and Communications, Faculty of Sociology , Toyo University. All rights reserved.</div>
+  </div>
+</footer>
+</body>
+</html>
